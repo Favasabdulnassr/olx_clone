@@ -1,0 +1,56 @@
+.bannerParentDiv {
+  padding-top: 4em;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+  margin: 0 0 4px;
+  z-index: 5;
+  padding: 68px 16px 0;
+}
+.bannerParentDiv .bannerChildDiv {
+ 
+}
+
+.bannerParentDiv .bannerChildDiv .menuBar { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-weight: 300;
+    cursor: pointer;
+    color: var(--blackText);
+    padding-left: 40px;
+    text-overflow: ellipsis;
+
+}
+
+/* .bannerParentDiv .bannerChildDiv .menuBar span {
+} */
+
+.bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
+  margin-right: 16px;
+  font-weight: bolder;
+}
+
+/* .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions {
+} */
+.bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
+  padding: 10px;
+}
+
+.bannerChildDiv .banner {
+  position: relative;
+  width: 100vw;
+  top: 2em;
+}
+.bannerChildDiv .banner img{
+  width: 100vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .otherQuickOptions {
+    display: none;
+  }
+  .bannerChildDiv .banner {
+    position: relative;
+  }
+}
