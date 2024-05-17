@@ -6,6 +6,7 @@ function ViewPost() {
     <div>
         <View></View>
         
+        
     </div>
 
   )

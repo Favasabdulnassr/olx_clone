@@ -40,7 +40,10 @@
     height: 270px;
     display: inline-block;
     cursor: pointer;
+    background-color: white;
   }  
+
+  
 
   .card .favourite {
     display: flex;
